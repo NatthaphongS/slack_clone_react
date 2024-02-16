@@ -20,6 +20,7 @@ export const HeroText = styled.h1`
 
 export const IconSlate = styled.div`
   width: 60%;
+  max-width: 350px;
   aspect-ratio: 1/1;
   background-size: cover;
   background-position: center;

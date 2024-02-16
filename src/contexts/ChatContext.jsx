@@ -19,7 +19,7 @@ export default function ChatContextProvider({ children }) {
   const { authUser } = useAuth();
   const { chatRoomId } = useParams();
 
-  console.log(chatRoomDetail);
+  // console.log(chatRoomDetail);
 
   useEffect(() => {
     if (currentRoomId !== '' && currentRoomId !== chatRoomId) {

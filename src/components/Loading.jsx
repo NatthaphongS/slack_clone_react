@@ -18,6 +18,7 @@ const Layout = styled.div`
 
 export const Spinner = styled.div`
   width: 50%;
+  max-width: 350px;
   aspect-ratio: 1/1;
   background-size: cover;
   background-position: center;

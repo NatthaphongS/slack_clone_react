@@ -10,7 +10,7 @@ export default function ChannelContextProvider({ children }) {
   const [channelLists, setChannelLists] = useState([]);
   const [channelDetail, setChannelDetail] = useState({});
   // console.log(channelLists);
-  console.log(channelDetail);
+  // console.log(channelDetail);
 
   useEffect(() => {
     axios

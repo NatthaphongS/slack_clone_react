@@ -10,6 +10,7 @@ export default function ChatInput() {
 
   const send = (e) => {
     e.preventDefault();
+    // console.log('55');
     if (message.trim() !== '') {
       sendMessage(message);
       setMessage('');
@@ -25,7 +26,7 @@ export default function ChatInput() {
             setMessage(e.target.value);
           }}
         />
-        <Button type="primary">
+        <Button type="primary" onClick={send}>
           <SendOutlined />
         </Button>
       </Space.Compact>

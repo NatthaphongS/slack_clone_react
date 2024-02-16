@@ -27,12 +27,13 @@ const FixHeader = styled(Header)`
 
 const StyledContent = styled.div`
   flex: 1;
+  width: 100%;
   /* background-color: aquamarine; */
   margin: 0 0.2rem;
   // display: flex;
   // flex-direction: column;
   justify-content: flex-end;
-  overflow-y: scroll;
+  overflow-y: hidden;
 `;
 
 const StyledFooter = styled(Footer)`

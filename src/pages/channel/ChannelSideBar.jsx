@@ -42,10 +42,9 @@ const ChannelName = styled.div`
 export default function ChannelSideBar() {
   const [isMemberModalOpen, setIsMemberModalOpen] = useState(false);
   const [isRoomModalOpen, setIsRoomModalOpen] = useState(false);
-  console.log(isRoomModalOpen);
   const { channelDetail } = useChannel();
   const navigate = useNavigate();
-  console.log(channelDetail);
+  // console.log(channelDetail);
 
   const channelLists = channelDetail.chatRooms.map((chatroom) => ({
     key: `${chatroom.id}`,
