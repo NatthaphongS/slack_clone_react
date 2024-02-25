@@ -26,7 +26,6 @@ export default function RegisterForm() {
     delete values.confirm;
     try {
       const res = await register(values);
-      console.log('res------', res);
       if (res?.error) {
         return setErrorMassage(res.error);
       }
